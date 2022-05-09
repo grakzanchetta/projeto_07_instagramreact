@@ -1,16 +1,11 @@
 import SidebarSug from "./SidebarSuggestion"
+import UserName from "./UserName"
 
 export default function Sidebar (){
 
   return (
       <div class="sidebar">
-        <div class="usuario">
-          <img src= "assets/img/catanacomics.svg"/>
-          <div class="texto">
-            <strong>catanacomics</strong>
-            Catana
-          </div>
-        </div>
+        <UserName />
         <SidebarSug />
         <div class="links">
           Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
