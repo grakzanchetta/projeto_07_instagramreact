@@ -1,18 +1,18 @@
 import Story from "./Story";
 
-const stories = [
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
-    {imagem: "./assets/img/9gag.svg", usuario:"9gag"}
-]
-
 export default function Stories (){
+    const stories = [
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"},
+        {imagem: "./assets/img/9gag.svg", usuario:"9gag"}
+    ]
+
     return (
         <div class="stories">
             {
