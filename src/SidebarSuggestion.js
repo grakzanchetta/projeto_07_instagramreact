@@ -16,11 +16,11 @@
 
 export default function SidebarSug (){
   const suggestions = [
-    {friendSuggestionImage: "./assets/img/catanacomics.svg", friendSuggestionName: "catanacomics", friendReason: "Segue Você"},
-    {friendSuggestionImage: "./assets/img/catanacomics.svg", friendSuggestionName: "catanacomics", friendReason: "Segue Você"},
-    {friendSuggestionImage: "./assets/img/catanacomics.svg", friendSuggestionName: "catanacomics", friendReason: "Novo no Instagram"},
-    {friendSuggestionImage: "./assets/img/catanacomics.svg", friendSuggestionName: "catanacomics", friendReason: "Segue Você"},
-    {friendSuggestionImage: "./assets/img/catanacomics.svg", friendSuggestionName: "catanacomics", friendReason: "Segue Você"}
+    {friendSuggestionImage: "./assets/img/wawawicomics.svg", friendSuggestionName: "wawawicomics", friendReason: "Segue Você"},
+    {friendSuggestionImage: "./assets/img/bad.vibes.memes.svg", friendSuggestionName: "badvibesmemes", friendReason: "Segue Você"},
+    {friendSuggestionImage: "./assets/img/barked.svg", friendSuggestionName: "barked", friendReason: "Novo no Instagram"},
+    {friendSuggestionImage: "./assets/img/meowed.svg", friendSuggestionName: "mewoed", friendReason: "Segue Você"},
+    {friendSuggestionImage: "./assets/img/9gag.svg", friendSuggestionName: "9gag", friendReason: "Segue Você"}
   ]
   return (
         <div class="sugestoes">
