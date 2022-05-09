@@ -1,4 +1,4 @@
-function Story (props){
+export default function Story (props){
     return (
         <div class="story">
             <div class="imagem">
@@ -11,4 +11,3 @@ function Story (props){
     )
 }
 
-export default Story;

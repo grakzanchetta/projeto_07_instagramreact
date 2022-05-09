@@ -12,7 +12,7 @@ const stories = [
     {imagem: "./assets/img/9gag.svg", usuario:"9gag"}
 ]
 
-function Stories (){
+export default function Stories (){
     return (
         <div class="stories">
             {
@@ -28,4 +28,3 @@ function Stories (){
     )
 }
 
-export default Stories;
